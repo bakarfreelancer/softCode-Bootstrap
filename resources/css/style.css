@@ -1,0 +1,279 @@
+/* My Colors */
+/* 
+#242582 
+#553D67
+#F64C72
+#99738E
+#2F2FA2
+ */
+body {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f64c72;
+  text-transform: uppercase;
+}
+.bigHeading {
+  font-size: 280%;
+}
+.spacer {
+  height: 50px;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slidercontent {
+  background-color: #242582;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slidercontent > h2 {
+  color: #f64c72;
+}
+.sliderNavigators {
+  margin-top: 320px;
+}
+.sliderNavigators > span {
+  transform: translateY(-120px);
+}
+.bg-pr {
+  background-color: #242582;
+}
+.btn-sec {
+  background-color: #f64c72;
+  color: #fff;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.btn-sec:hover {
+  background-color: #c22144;
+  color: #fff;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.app-icon,
+.globeIcon,
+.hosting-icon {
+  font-size: 800%;
+}
+.servicesCard {
+  border-radius: 25px;
+  min-height: 450px;
+  padding: 35px 5px;
+}
+.bg-sec-img {
+  background: url("./images/bg-sec.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#staffSlider {
+  height: 500px;
+}
+.staffHeading {
+  color: #242582;
+  text-align: center;
+}
+.staffSliderContent {
+  max-width: 800px;
+  margin: 80px auto 50px auto;
+}
+.bg-transp {
+  /* background: rgba(122, 238, 14, 0.481); */
+}
+.staffImg img {
+  width: 300px;
+  height: auto;
+}
+.staffCardBody {
+  padding-top: 50px;
+}
+.faqAccordion .card-header {
+  background-color: #242682;
+  transition: background-color 0.3s;
+}
+.faqAccordion .card-header:hover {
+  background-color: #171757;
+}
+.showIconOne,
+.showIconTwo,
+.showIconThree,
+.showIconFour {
+  font-size: 130%;
+}
+.faqAccordion button {
+  color: #ffffff;
+  border: none;
+}
+.faqAccordion button:hover,
+.faqAccordion button:enabled {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact {
+  background: url("./images/contactbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactForm {
+  background: #ffffffc5;
+  padding: 30px 20px;
+  border-radius: 25px;
+}
+.contactTag {
+  background: #ffffffc5;
+  padding: 3px;
+}
+.contactForm label {
+  color: #f64c72;
+}
+.callIcon {
+  color: #f64c72;
+  border: #f64c72 solid 3px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 500%;
+  line-height: 10.4px;
+  padding: 30px;
+  background-color: rgba(239, 186, 108, 0.2);
+  margin: auto;
+}
+.contactFirstSec {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.aimCol,
+.menuCol,
+.socialCol {
+  padding: 30px 10px;
+}
+.aimCol h6,
+.menuCol h6,
+.socialCol h6 {
+  color: #fff;
+}
+.aimBody {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(226, 226, 226);
+}
+.footerMenuList {
+  list-style: none;
+  display: block;
+}
+.footerMenuList li a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+.footerMenuList li a:hover {
+  color: rgb(181, 181, 181);
+}
+.PagesMenu {
+  line-height: 30px;
+}
+.socialMenu {
+  font-size: 120%;
+}
+.socialMenu li {
+  display: inline-block;
+  padding: 5px 3px;
+  transform: translateX(-30px);
+}
+.socialMenu li a i {
+  border: #ffffff solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+  /* line-height: 10.4px; */
+  padding: 20px;
+  background-color: rgba(239, 187, 108, 0);
+  margin: auto;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.socialMenu li a i:hover {
+  border: #ffffff solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+  /* line-height: 10.4px; */
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  color: #6c757d;
+}
+.PagesMenu {
+  text-align: center;
+}
+.cpText {
+  color: rgb(174, 174, 174);
+  /* min-height: 50px; */
+  padding: 20px;
+}
+.cpText a {
+  color: #fff;
+}
+/* <------------RESPONSIVE------------> */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+  .staffImg {
+    background-color: #242582;
+    text-align: center;
+  }
+  .staffImg img {
+    width: 50%;
+  }
+  .staffCardBody {
+    padding-top: 10px;
+  }
+  .staffSliderContent {
+    margin: 20px auto 10px auto;
+  }
+  .aimCol,
+  .menuCol,
+  .socialCol {
+    text-align: center;
+  }
+  .socialCol form {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .PagesMenu {
+    transform: translateX(-25px);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 200px;
+    height: auto;
+  }
+  body {
+    font-size: 14px;
+  }
+}

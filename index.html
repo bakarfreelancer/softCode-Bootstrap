@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Soft Code</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <!-- NavBAr -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-pr fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./resources/images/logo.png" alt="Soft Code" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="navbar-right nav navbar-nav"> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#headSlider"
+                ><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item page-scroll">
+              <a class="nav-link js-scroll-trigger" href="#services"><i class="fab fa-servicestack"></i> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff"> <i class="fas fa-users"></i> Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faqs" class="nav-link"><i class="fas fa-question-circle"></i> FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"><i class="fas fa-phone-alt"></i> Contact</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- navigation ends -->
+<header id="headSlider">
+  <!-- header slider -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('./resources/images/slider1.jpg')">
+        <div class="carousel-caption d-none d-md-block jumbotron slidercontent">
+          <h2 class="display-4">Soft Code</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('./resources/images/slider2.jpg')">
+        <div class="carousel-caption d-none d-md-block jumbotron slidercontent">
+          <h2 class="display-4">Second Slide</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('./resources/images/slider3.jpg')">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block jumbotron slidercontent">
+          <h2 class="display-4">Third Slide</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+      </div>
+      <a
+        class="carousel-control-prev sliderNavigators"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next sliderNavigators"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</header>
+<!-- header ends -->
+
+<!-- services starts -->
+<div class="services container-fluid bg-default" id="services">
+  <div class="spacer"></div>
+  <div class="container">
+    <h3 class="text-center bigHeading">Services</h3><br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-white bg-pr mb-3 servicesCard mx-auto" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fas fa-mobile-alt app-icon"></i><br><br>
+            <h5 class="card-title">MOBILE APPS</h5>
+            <p class="card-text">Get all kind of mobile application for Android and Apple with Clear Design and fast performance</p><br>
+            <a href="#" type="button" class="btn btn-sec btn-block">Get Now</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4">
+        <div class="card text-white bg-pr mb-3 servicesCard mx-auto" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fas fa-globe globeIcon"></i><br><br>
+            <h5 class="card-title">Websites</h5>
+            <p class="card-text">For simple and professional websites it is best to contact us, Website with easy usable CMS</p><br>
+            <a href="#" type="button" class="btn btn-sec btn-block">Get Now</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4">
+        <div class="card text-white bg-pr mb-3 servicesCard mx-auto" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fas fa-server hosting-icon"></i></i><br><br>
+            <h5 class="card-title">Hosting Services</h5>
+            <p class="card-text">Fast and relaible hosting services with no downtime. Now You can host it with backup support</p><br>
+            <a href="#" type="button" class="btn btn-sec btn-block">Get Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Service ends -->
+
+<!-- Staff -->
+<div class="staff container-fluid bg-sec-img" id="staff">
+<div class="container">
+  <div class="spacer"></div>
+  <h3 class="staffHeading bigHeading">Meet Our Staff</h3>
+    <!-- Staff slider -->
+  <div id="staffSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#staffSlider" data-slide-to="0" class="active"></li>
+      <li data-target="#staffSlider" data-slide-to="1"></li>
+      <li data-target="#staffSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-block w-100 staffSliderContent">
+          <div class="card mb-3" >
+            <div class="row no-gutters">
+              <div class="col-md-6 staffImg">
+                <img src="./resources/images/pro1.jpg" class="card-image" alt="">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body staffCardBody">
+                  <h5 class="card-title">Manager</h5>
+                  <p class="card-text">This is data about one of the team member which is represented here in text form. Some info and data about one of the team member which is represented here in a form of text to fulfill this area.</p>
+                  <p class="card-text"><small class="text-muted">__Marks Joe</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block w-100 staffSliderContent">
+          <div class="card mb-3" >
+            <div class="row no-gutters">
+              <div class="col-md-6 staffImg">
+                <img src="./resources/images/pro2.jpg" class="card-image" alt="">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body staffCardBody">
+                  <h5 class="card-title">Engineer</h5>
+                  <p class="card-text">This is data about one of the team member which is represented here in text form. Some info and data about one of the team member which is represented here in a form of text to fulfill this area.</p>
+                  <p class="card-text"><small class="text-muted">__Alina Jason</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block w-100 staffSliderContent">
+          <div class="card mb-3" >
+            <div class="row no-gutters">
+              <div class="col-md-6 staffImg">
+                <img src="./resources/images/pro3.jpg" class="card-image" alt="">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body staffCardBody">
+                  <h5 class="card-title">Business Advisor</h5>
+                  <p class="card-text">This is data about one of the team member which is represented here in text form. Some info and data about one of the team member which is represented here in a form of text to fulfill this area.</p>
+                  <p class="card-text"><small class="text-muted">__Marks Joe</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#staffSlider" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a href="#staffSlider" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Staff slider end -->
+</div>
+</div>
+<!-- staff section end -->
+
+<!-- faqs start -->
+<div id="faqs" class="faqs container-fluid">
+  <div class="spacer"></div>
+  <h3 class="bigHeading text-center ">FAQ<span style="text-transform:lowercase">s</span></h3><br>
+  <div class="container">
+    <div class="accordion faqAccordion" id="faqs" onclick="checkIcons()">
+      <div class="card">
+        <div class="card-header" id="qOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="showIconOne"><i class="fas fa-minus"></i></span>&nbsp Does it provide lifetime support for updates?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" arial-labelledby="qOne" data-parent="#faqs">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="qTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <span class="showIconTwo"><i class="fas fa-plus"></i></span>&nbsp; Will we be able to make changes in the applications?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="qTwo" data-parent="#faqs">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="qThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="showIconThree"><i class="fas fa-plus"></i></span>&nbsp; How much time will it take to get full application?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="qThree" data-parent="#faqs">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="qFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <span class="showIconFour"><i class="fas fa-plus"></i></span>&nbsp; Is it necessary to digitalize our business?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="qFour" data-parent="#faqs">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FAQs end -->
+<div class="spacer"></div>
+<!-- contact starts -->
+<div class="contact container-fluid" id="contact">
+  <div class="spacer"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center contactFirstSec">
+        <div class="text-center callIcon">
+          <i class="fas fa-phone-alt"></i>
+        </div><br><br><br>
+        <h3 class="text-center">Contact us</h3>
+        <div class="text-center"><b class="contactTag">Ask Your Questions And Connect With Us</b></div>
+      </div>
+      <div class="col-md-6">
+        <form class="needs-validation contactForm" novalidate>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationCustom01">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" placeholder="First Name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationCustom02">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Last Name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationCustom03">Email</label>
+              <input type="email" class="form-control" id="validationCustomEmail" placeholder="user@mail.com" required>
+              <div class="invalid-feedback">
+                Please provide correct email.
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationCustom03">Message</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please write some message.
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-block btn-sec" type="submit">Send <i class="far fa-paper-plane"></i></button>
+        </form>
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact ends -->
+
+<!-- footer starts -->
+<footer class=" footer">
+  <div class="bg-secondary container-fluid">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-4 aimCol">
+        <h6>Our Aim</h6>
+        <div class="aimBody">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor</div>
+      </div>
+      <div class="col-md-4 menuCol">
+        <div>
+          <h6>Menu</h6>
+          <ul class="footerMenuList PagesMenu">
+            <li><a href=""><i class="fas fa-home"></i> Home</a></li>
+            <li><a href=""><i class="fas fa-user"></i> About</a></li>
+            <li><a href=""><i class="fas fa-phone-alt"></i> Contact</a></li>
+            <li><a href=""><i class="fas fa-info-circle"></i> Help</a></li>
+            <li><a href=""><i class="fas fa-question-circle"></i> FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 socialCol">
+        <div>
+          <h6>Join Our News letter</h6>
+          <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+              <input type="email" class="form-control" id="" placeholder="user@mail.com" required>
+            </div>
+            <button type="submit" class="btn btn-sec mb-2"><i class="fas fa-location-arrow"></i></button>
+          </form>
+        </div><br>
+          <div>
+            <ul class="footerMenuList socialMenu">
+              <li><a href="#"><i class="fab fa-facebook-f" style="padding-left: 23px; padding-right: 23px;"></a></i></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="bg-dark container-fluid">
+    <div class="container cpText text-center">
+      <div>Copyright © 2020 <span><a href="#">SoftCode.coo</a></span></div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+<script src="./resources/js/main.js">
+</script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
