@@ -83,6 +83,29 @@ h6 {
 #staffSlider {
   height: 500px;
 }
+
+/* .staff .container::before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 1000px;
+  background-color: #f64c72;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(10deg);
+  left: -78%;
+} */
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.staff {
+  max-height: min-content;
+  overflow: hidden;
+  background: url(./images/bg-sec.png);
+}
+
 .staffHeading {
   color: #242582;
   text-align: center;
@@ -100,6 +123,9 @@ h6 {
 }
 .staffCardBody {
   padding-top: 50px;
+}
+.faqs {
+  background-color: #fff;
 }
 .faqAccordion .card-header {
   background-color: #242682;
